@@ -1,0 +1,26 @@
+{
+  "name": "ankur-gen-ai",
+  "version": "1.0.0",
+  "description": "Terminal chatbot built with LangChain.js and Groq (practice project)",
+  "main": "chatbot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node chatbot.js"
+  },
+  "keywords": [
+    "groq",
+    "langchain",
+    "generative-ai",
+    "chatbot",
+    "llama3"
+  ],
+  "author": "Ankur",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^1.2.17",
+    "@langchain/groq": "^1.3.1",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0"
+  }
+}
